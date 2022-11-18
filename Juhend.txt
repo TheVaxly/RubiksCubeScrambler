@@ -1,0 +1,12 @@
+"Ruubiku Kuubiku Scrambler Juhend"
+
+Alustades vali, kas lahendada 3x3 kuubik või 2x2 kuubik
+
+Teed viis aega järjest ja arvutatakse kokku nende keskmine
+
+Viie keskmist arvutatakse:
+1. Võetakse kõik viis aega
+2. Võetakse ära kõige kiirem ja aeglasem aega
+3. Arvutatakse välja ülejäänud kolme aja keskmine aeg
+
+Good Luck !
