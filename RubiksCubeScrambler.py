@@ -61,7 +61,7 @@ for g in range(5):
     lõpp = time.time()
 
     lõpp_aeg0 = lõpp - algus
-    lõpp_aeg = round(lõpp_aeg0, 3)
+    lõpp_aeg = round(lõpp_aeg0, 2)
 
     if yes == '3':
         aeg(lõpp_aeg)
@@ -70,5 +70,9 @@ for g in range(5):
     
     keskmine.append(lõpp_aeg)
 
-keskmine0 = sum(keskmine) / len(keskmine)
-print(f'{kriips4} Teie keskmine aeg on on {round(keskmine0, 3)} sekundit')
+keskmine1 = keskmine.copy()
+keskmine1.remove(max(keskmine1))
+keskmine1.remove(min(keskmine1))
+keskmine0 = sum(keskmine1) / len(keskmine1)
+
+print(f'{kriips4} Teie viie keskmine aeg on on {round(keskmine0, 2)} sekundit')
