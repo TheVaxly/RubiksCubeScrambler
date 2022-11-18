@@ -18,6 +18,7 @@ def two_by_two():
 kriips2 = '---------------------------------\n'
 kriips = '\n------------------------------'
 kriips3 = '\n---------------'
+kriips4 = '---------------\n'
 
 a = three_by_three()
 b = two_by_two()
@@ -51,15 +52,23 @@ def aeg2(seK):
     else:
         print(' Noice!')
 
-input(f"{kriips2} Vajutage ENTER, et alustada aeg")
-algus = time.time()
-input(f"{kriips2} Vajutage uuesti ENTER, et lõpetada aeg")
-lõpp = time.time()
+keskmine = [] 
 
-lõpp_aeg0 = lõpp - algus
-lõpp_aeg = round(lõpp_aeg0, 3)
+for g in range(5):
+    input(f"{kriips2} Vajutage ENTER, et alustada aeg")
+    algus = time.time()
+    input(f"{kriips2} Vajutage uuesti ENTER, et lõpetada aeg")
+    lõpp = time.time()
 
-if yes == '3':
-    aeg(lõpp_aeg)
-elif yes == '2':
-    aeg2(lõpp_aeg)
+    lõpp_aeg0 = lõpp - algus
+    lõpp_aeg = round(lõpp_aeg0, 3)
+
+    if yes == '3':
+        aeg(lõpp_aeg)
+    elif yes == '2':
+        aeg2(lõpp_aeg)
+    
+    keskmine.append(lõpp_aeg)
+
+keskmine0 = sum(keskmine) / len(keskmine)
+print(f'{kriips4} Teie keskmine aeg on on {round(keskmine0, 3)} sekundit')
