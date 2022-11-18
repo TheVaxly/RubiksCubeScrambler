@@ -11,3 +11,4 @@ Viie keskmist arvutatakse:
 3. Arvutatakse välja ülejäänud kolme aja keskmine aeg
 
 Good Luck !
+https://github.com/TheVaxly/RubiksCubeScrambler/blob/main/RubiksCubeScrambler.py
