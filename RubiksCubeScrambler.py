@@ -1,3 +1,6 @@
+#Ruubiku Kuubiku Scrambler ehk RKS
+#Marten Uiboupin
+#VOCO ITA 22
 import random
 import time
 
