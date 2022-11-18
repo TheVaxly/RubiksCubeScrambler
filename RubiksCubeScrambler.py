@@ -69,6 +69,10 @@ for g in range(5):
         aeg2(lõpp_aeg)
     
     keskmine.append(lõpp_aeg)
+    if yes == '3':
+        print(kriips2 + ' Uus 3x3 scramble on : ' + three_by_three())
+    elif yes == '2':
+        print(kriips2 + ' Uus 2x2 scramble on: ' + two_by_two())
 
 keskmine1 = keskmine.copy()
 keskmine1.remove(max(keskmine1))
