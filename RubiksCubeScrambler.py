@@ -51,10 +51,10 @@ def aeg2(seK):
         print(' Holy cow!')
     else:
         print(' Noice!')
-
+mitme_keskmine = int(input(f'{kriips2} Kas soovite viie või kaheteistkümne keskmist? (5/12): '))
 keskmine = [] 
 
-for g in range(5):
+for g in range(mitme_keskmine):
     input(f"{kriips2} Vajutage ENTER, et alustada aeg")
     algus = time.time()
     input(f"{kriips2} Vajutage uuesti ENTER, et lõpetada aeg")
