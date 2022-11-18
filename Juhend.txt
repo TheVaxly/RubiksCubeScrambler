@@ -1,8 +1,9 @@
 "Ruubiku Kuubiku Scrambler Juhend"
 
-Alustades vali, kas lahendada 3x3 kuubik või 2x2 kuubik
-
-Teed viis aega järjest ja arvutatakse kokku nende keskmine
+Alustades vali, kas lahendada 3x3 kuubik või 2x2 kuubik.
+Teile antakse teile valitud kuubiku scramble.
+Segata kuubiku vastavalt antud scrambelile.
+Teete viis aega järjest ja arvutatakse kokku nende keskmine.
 
 Viie keskmist arvutatakse:
 1. Võetakse kõik viis aega
